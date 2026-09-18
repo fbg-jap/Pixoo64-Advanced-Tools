@@ -3,7 +3,7 @@ Pillow
 psutil
 numpy
 soundcard
-pynvml
+nvidia-ml-py
 opencv-python
 feedparser
 customtkinter

@@ -1,0 +1,9 @@
+{
+    "rss_feeds": [],
+    "calendar_urls": [],
+    "spotify_client_id": "",
+    "spotify_client_secret": "",
+    "spotify_refresh_token": null,
+    "divoom_email": "",
+    "divoom_password": ""
+}
