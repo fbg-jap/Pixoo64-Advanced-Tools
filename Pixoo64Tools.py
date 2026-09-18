@@ -79,7 +79,11 @@ except ImportError:
     DIVOOM_DECODER_SUPPORT = False
 
 # Suppress a specific, harmless warning from the soundcard library
-warnings.filterwarnings('ignore', category=sc.SoundcardRuntimeWarning)
+if hasattr(sc, "SoundcardRuntimeWarning"):
+    warnings.filterwarnings(
+        "ignore",
+        category=sc.SoundcardRuntimeWarning,
+    )
 
 # Sets up how logs are displayed
 logging.basicConfig(
